@@ -1,0 +1,5 @@
+﻿to deploy
+appsettings.json change connection string
+Startup.cs change startup with origins
+
+delete all same folders and files

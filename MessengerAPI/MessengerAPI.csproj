@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\20200831141508_1.cs" />
+    <Compile Remove="Models\20200831141508_1.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200916214353_2.cs" />
+    <Compile Remove="Models\Migrations\20200916214353_2.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200916214609_2.cs" />
+    <Compile Remove="Models\Migrations\20200916214609_2.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200916215615_2.cs" />
+    <Compile Remove="Models\Migrations\20200916215615_2.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200916215903_2.cs" />
+    <Compile Remove="Models\Migrations\20200916215903_2.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200917205032_2.cs" />
+    <Compile Remove="Models\Migrations\20200917205032_2.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200917211029_2.cs" />
+    <Compile Remove="Models\Migrations\20200917211029_2.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200917211331_2.cs" />
+    <Compile Remove="Models\Migrations\20200917211331_2.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200918094128_2.cs" />
+    <Compile Remove="Models\Migrations\20200918094128_2.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200918095845_2.cs" />
+    <Compile Remove="Models\Migrations\20200918095845_2.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200918100433_2.cs" />
+    <Compile Remove="Models\Migrations\20200918100433_2.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200918102710_2.cs" />
+    <Compile Remove="Models\Migrations\20200918102710_2.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200923194020_3.cs" />
+    <Compile Remove="Models\Migrations\20200923194020_3.Designer.cs" />
+    <Compile Remove="Models\Migrations\20200923194801_3.cs" />
+    <Compile Remove="Models\Migrations\20200923194801_3.Designer.cs" />
+    <Compile Remove="Models\Migrations\20201027194630_6.cs" />
+    <Compile Remove="Models\Migrations\20201027194630_6.Designer.cs" />
+    <Compile Remove="Models\Migrations\20201027194930_6.cs" />
+    <Compile Remove="Models\Migrations\20201027194930_6.Designer.cs" />
+    <Compile Remove="Models\Migrations\20201030195341_test.cs" />
+    <Compile Remove="Models\Migrations\20201030195341_test.Designer.cs" />
+    <Compile Remove="Models\Migrations\20201031140626_9.cs" />
+    <Compile Remove="Models\Migrations\20201031140626_9.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="2.9.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.9" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="MimeKit" Version="2.9.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Controllers.FriendsController.ru.resx">
+      <Generator></Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+
+</Project>
